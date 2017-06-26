@@ -1,0 +1,982 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"rok",
+				"rocket2"
+			],
+			[
+				"staticSt",
+				"staticStatType\tlocal var"
+			],
+			[
+				"deploy",
+				"deployEntityClass\tlocal var"
+			],
+			[
+				"creatu",
+				"creaturesClassData\tproperty"
+			],
+			[
+				"en",
+				"entityClass\tparameter"
+			],
+			[
+				"human",
+				"humanoidsClassData\tproperty"
+			],
+			[
+				"huma",
+				"humanoidsData\tproperty"
+			],
+			[
+				"class",
+				"classObjectStats\tlocal var"
+			],
+			[
+				"result",
+				"resultContainer\tlocal var"
+			],
+			[
+				"key",
+				"key\tlocal var"
+			],
+			[
+				"static",
+				"staticDurability\tlocal var"
+			],
+			[
+				"damage",
+				"damageTarget\tlocal var"
+			],
+			[
+				"self",
+				"selfStats\tlocal var"
+			],
+			[
+				"type",
+				"typeObject\tparameter"
+			],
+			[
+				"orbs",
+				"orbsClassDataArray\tproperty"
+			],
+			[
+				"orbsCl",
+				"orbsClassData\tproperty"
+			],
+			[
+				"orb",
+				"orbsClassData\tproperty"
+			],
+			[
+				"orbsClassData",
+				"orbsClassDataArray\tproperty"
+			],
+			[
+				"itemCla",
+				"itemClassDataContainer\tlocal var"
+			],
+			[
+				"items",
+				"itemClassData\tlocal var"
+			],
+			[
+				"itemTypeDa",
+				"itemTypeDataContainer\tlocal var"
+			],
+			[
+				"or",
+				"orbsData\tproperty"
+			],
+			[
+				"creature",
+				"creatureClassDataArray\tproperty"
+			],
+			[
+				"creau",
+				"creatureParamsObject\tlocal var"
+			],
+			[
+				"surname",
+				"surnameObject\tlocal var"
+			],
+			[
+				"name",
+				"nameObject\tlocal var"
+			],
+			[
+				"skipGe",
+				"skipGenerateSurname\tlocal var"
+			],
+			[
+				"creatureRace",
+				"creatureRaceContainer\tlocal var"
+			],
+			[
+				"o",
+				"currentOrb\tproperty"
+			],
+			[
+				"cre",
+				"creaturesData\tproperty"
+			],
+			[
+				"c",
+				"creaturesData\tproperty"
+			],
+			[
+				"entity",
+				"entityType\tparameter"
+			],
+			[
+				"ba",
+				"bagSlots\tproperty"
+			],
+			[
+				"eq",
+				"equipItems\tproperty"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"border-rad",
+				"border-top-right-radius"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius"
+			],
+			[
+				"hero-",
+				"hero-creater-stats-bar"
+			],
+			[
+				"border-r",
+				"border-top-right-radius"
+			],
+			[
+				"hero",
+				"hero-creater"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"helper",
+				"helperName\tlocal var"
+			],
+			[
+				"team",
+				"teamOneAlive\tproperty"
+			],
+			[
+				"newM",
+				"newMobIndex\tlocal var"
+			],
+			[
+				"left",
+				"leftHelperBlock\tproperty"
+			],
+			[
+				"cler",
+				"clearLeftHelperBlock\tmethod"
+			],
+			[
+				"clear",
+				"clearRightBlock\tmethod"
+			],
+			[
+				"Team",
+				"teamTwoAlive\tproperty"
+			],
+			[
+				"is",
+				"isBattleEnd\tproperty"
+			],
+			[
+				"staticHp",
+				"staticHP\tlocal var"
+			],
+			[
+				"targe",
+				"targetName\tlocal var"
+			],
+			[
+				"player",
+				"playerName\tlocal var"
+			],
+			[
+				"teamT",
+				"teamTwoAlive\tproperty"
+			],
+			[
+				"tar",
+				"targetMagicalDefense\tlocal var"
+			],
+			[
+				"ma",
+				"magicalPlayerDamage\tlocal var"
+			],
+			[
+				"tea",
+				"teamTwoAlive\tproperty"
+			],
+			[
+				"re",
+				"teamOneReady\tproperty"
+			],
+			[
+				"teamOne",
+				"teamOneAlive\tproperty"
+			],
+			[
+				"battle",
+				"endBattle\tmethod"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"lvl",
+				"levelUpClassStats\tproperty"
+			],
+			[
+				"hu",
+				"humanoidsClassData\tproperty"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margi-",
+				"margin-left"
+			],
+			[
+				"getElemet",
+				"getElementById\tmethod"
+			],
+			[
+				"figh",
+				"isFighting\tproperty"
+			],
+			[
+				"isro",
+				"isRoundEnd\tproperty"
+			],
+			[
+				"p2",
+				"p2Attack\tlocal var"
+			],
+			[
+				"update",
+				"updateFightingStats\tmethod"
+			],
+			[
+				"full",
+				"fullNameEnemy\tlocal var"
+			],
+			[
+				"exp",
+				"experienceStats\tlocal var"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-overflow"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"rac",
+				"racesDataArray\tproperty"
+			],
+			[
+				"creat",
+				"creaturesDataArray\tproperty"
+			],
+			[
+				"time",
+				"timeToNextAttack\tlocal var"
+			],
+			[
+				"tim",
+				"timeToNextAttack\tlocal var"
+			],
+			[
+				"ts",
+				"ts"
+			],
+			[
+				"tick",
+				"tickFps\tproperty"
+			],
+			[
+				"generate",
+				"generateSurname\tmethod"
+			],
+			[
+				"gridS",
+				"gridStepHeight\tproperty"
+			],
+			[
+				"copo",
+				"componentName\tparameter"
+			],
+			[
+				"compon",
+				"componentName\tparameter"
+			],
+			[
+				"grid",
+				"grid\tproperty"
+			],
+			[
+				"plane",
+				"planeGeometry"
+			],
+			[
+				"griSi",
+				"gridSizeHeight"
+			],
+			[
+				"pointY",
+				"pointY"
+			],
+			[
+				"gridSize",
+				"gridSizeWidth"
+			],
+			[
+				"generateCit",
+				"generateCityName"
+			],
+			[
+				"_tileren",
+				"_tilesRenderY\tInt"
+			],
+			[
+				"_last",
+				"_lastSceneY\tFloat"
+			],
+			[
+				"_tiles",
+				"_tilesRenderY\tInt"
+			],
+			[
+				"remo",
+				"removeTiles(...)\tVoid"
+			],
+			[
+				"_groun",
+				"_groundTileLayer\topenfl.display.Tilemap"
+			],
+			[
+				"Sc",
+				"scaleY\tFloat"
+			],
+			[
+				"_tile",
+				"_TILESIZE\tInt"
+			],
+			[
+				"p",
+				"getPhase(  )\tInt"
+			],
+			[
+				"_move",
+				"_moveLeft\tBool"
+			],
+			[
+				"tiles",
+				"_TILESIZE\tInt"
+			],
+			[
+				"com",
+				"componentName"
+			],
+			[
+				"Spri",
+				"Sprite\topenfl.display"
+			],
+			[
+				"Recta",
+				"Rectangle\topenfl.geom"
+			],
+			[
+				"_grid",
+				"_gridTileMap"
+			],
+			[
+				"_gr",
+				"_gridTileMap"
+			],
+			[
+				"Ve",
+				"Vector<T>\topenfl"
+			],
+			[
+				"_g",
+				"_gridTileMap"
+			],
+			[
+				"_",
+				"_mainSprite\topenfl.display.Sprite"
+			],
+			[
+				"che",
+				"checkedScene"
+			],
+			[
+				"remove",
+				"removeChild(...)\topenfl.display.DisplayObject"
+			],
+			[
+				"addChil",
+				"addChildAt(...)\topenfl.display.DisplayObject"
+			],
+			[
+				"child",
+				"addChildAt(...)\topenfl.display.DisplayObject"
+			],
+			[
+				"_exit",
+				"_exitGameButtonPushed"
+			],
+			[
+				"_ex",
+				"_exitGameButtonPushed\tvar"
+			],
+			[
+				"_start",
+				"_startGameButtonPushed\tvar"
+			],
+			[
+				"strin",
+				"String\tclass"
+			],
+			[
+				"Void",
+				"Void\tclass"
+			],
+			[
+				"User",
+				"UserInterface\tclass"
+			],
+			[
+				"Mouse",
+				"MouseEvent\topenfl.events"
+			],
+			[
+				"dotPo",
+				"dotPositionY\tvar"
+			],
+			[
+				"my",
+				"_myScene\tPlayingScene"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1726,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 9,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/game.js",
+			"settings":
+			{
+				"buffer_size": 7136,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/FS-clone-pixijs",
+		"/C/projects/FS-clone-pixijs/source"
+	],
+	"file_history":
+	[
+		"/C/projects/FS-clone-pixijs/main.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/game.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/FightingStats.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Game.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/index.html",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/EntityParametersGenerator.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Battle.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/UserInterface.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/creaturesData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/main.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Entities/Entity.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/EntityRoot.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/docker-compose.yml",
+		"/C/projects/Tiny-Tale-Fight-OOP/Dockerfile",
+		"/C/projects/Tiny-Tale-Fight-OOP/server.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/package.json",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/creaturesClassData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/style.css",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Journal.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/orbsData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/orbsClassData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/ItemFightingStats.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/ItemType.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/ItemName.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/convert.bat",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/inventoryEquip.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/humanoidsHelperData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/humanoidsData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/humanoidsClassData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/InventoryBag.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/SwordsData.js",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/ExperienceStats.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/.gitignore",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/HumanoidsData.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/creaturesData.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/Name.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/Type.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/AgeStats.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Data/humanoidsDataLvlUp.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/Stats.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/Component.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/CommonTick.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/ExperianceStats.ts",
+		"/C/projects/Tiny-Tale-Fight-OOP/source/ts_scripts/Components/CommonTick.ts",
+		"/C/projects/TinyTaleFight/js/Framework/EntityRoot.ts",
+		"/C/projects/TinyTaleFight/js/Framework/components/Stats.ts",
+		"/C/projects/TinyTaleFight/js/Framework/components/FightingStats.ts",
+		"/C/projects/TinyTaleFight/js/Framework/components/Name.ts",
+		"/C/projects/TinyTaleFight/js/Framework/components/Component.ts",
+		"/C/projects/TinyTaleFight/main.js",
+		"/C/projects/TinyTaleFight/game.ts",
+		"/C/projects/TinyTaleFight/js/Framework/Entity.ts",
+		"/C/projects/TinyTaleFight/index.html",
+		"/C/projects/TinyTaleFight/convert.bat",
+		"/C/projects/TinyTaleFight/all.js",
+		"/C/projects/TinyTaleFight/js/Framework/functionsForComponent.ts",
+		"/C/projects/TinyTaleFight/js/CommonTick.ts",
+		"/C/projects/webgl-threejs/index.html",
+		"/C/projects/webgl-threejs/js/game.js",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/Name.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/GroundMap.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/Move.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/EntityRoot.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Entity.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Graphics.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/Draw.ts",
+		"/C/Users/Admin/Desktop/server/server.properties",
+		"/C/Users/Admin/AppData/Roaming/.minecraft/server/server.properties",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/GridPosition.ts",
+		"/C/projects/webgl-threejs/js/framework/convert.bat",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/Type.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/City.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components/Component.ts",
+		"/C/projects/webgl-threejs/js/framework/source_ts/GridCoordinates.ts",
+		"/C/projects/webgl-threejs/js/framework/classes.js",
+		"/C/projects/webgl-threejs/js/framework/source_ts/GridPoint.ts",
+		"/C/projects/webgl-threejs/text.txt",
+		"/C/projects/webgl-threejs/js/services.js",
+		"/C/projects/webgl-threejs/js/framework/source_ts/Components.ts",
+		"/C/projects/webgl-threejs/js/framework/classes.ts",
+		"/C/projects/webgl+three_js/Lets test it/index.html",
+		"/C/projects/webgl+three_js/Lets test it/js/framework/classes.ts",
+		"/C/projects/webgl+three_js/Lets test it/js/game.js",
+		"/C/projects/webgl+three_js/Lets test it/js/services.js",
+		"/C/projects/webgl+three_js/Lets test it/js/framework/generators.js",
+		"/C/projects/webgl+three_js/Lets test it/js/graphics.js",
+		"/C/projects/webgl+three_js/Lets test it/js/classes.ts",
+		"/C/Users/Admin/Desktop/shoot-them-all-master/index.html",
+		"/C/Users/Admin/Desktop/shoot-them-all-master/main.js",
+		"/C/Users/Admin/Desktop/shoot-them-all-master/index.css",
+		"/C/Users/Admin/Desktop/Новый текстовый документ.html",
+		"/C/projects/webgl+three_js/Lets test it/js/classes.js",
+		"/C/Users/Admin/Desktop/generateName.html",
+		"/C/projects/DieAnotherDay_v0.11/source/EntitySystem.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Entity.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/GameTile.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/UserInterface.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/PlayingScene.hx",
+		"/C/projects/DieAnotherDay_v0.11/Export/html5/release/bin/index.html",
+		"/C/projects/DieAnotherDay_v0.11/.gitignore",
+		"/C/projects/DieAnotherDay_v0.11/source/Move.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Draw.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/LifeCircle.hx",
+		"/C/projects/BunnyMark/Source/Main.hx",
+		"/C/projects/test/SampleProject/project.xml",
+		"/C/projects/BunnyMark/Source/Bunny.hx",
+		"/C/projects/DieAnotherDay_v0.11_old/source/Entity.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/StartingScene.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/SceneSystem.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/GameSystem.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Coordinates.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Main.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Game.hx",
+		"/C/projects/DieAnotherDay/source/PlayingScene.hx",
+		"/C/projects/DieAnotherDay/source/TileMap.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Scene.hx",
+		"/C/projects/DieAnotherDay/source/Tiles.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/Tile.hx",
+		"/C/projects/DieAnotherDay/source/UserInterface.hx",
+		"/C/projects/DieAnotherDay/source/Game.hx",
+		"/C/projects/DieAnotherDay_v0.11/source/LevelSystem.hx",
+		"/C/projects/DieAnotherDay/source/SceneCharacterActor.hx",
+		"/C/projects/DieAnotherDay/source/WelcomeScene.hx",
+		"/C/projects/DieAnotherDay/source/Main.hx",
+		"/C/projects/DieAnotherDay_v0.11/project.xml",
+		"/C/projects/DieAnotherDay/source/PathfinderMap.hx",
+		"/C/projects/Noname/Data/Scripts/Main.cpp",
+		"/C/projects/New_DieAnotherDay/source/Game.hx"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"creatureClassData",
+			">\n",
+			"80px",
+			"BattleRoot",
+			");",
+			"checkScene",
+			"tileSize",
+			"lastLeftPoint",
+			"gridSize",
+			"Tile",
+			");\n",
+			"reset",
+			"actorToRemove",
+			"));\n",
+			"m_type",
+			"getType",
+			";\n",
+			");\n",
+			"setV",
+			"Global.world_sprite",
+			"m_physScale",
+			"new",
+			"m_bodyList",
+			"the_w",
+			"size",
+			"set_size",
+			"setSize",
+			"12",
+			"getParent",
+			"removeComponent",
+			"getCompon",
+			"updateUIfightingLog",
+			"updateUIplayerStats",
+			"getData",
+			"this.getData",
+			"this.weapon",
+			"getComponentList",
+			" this.components",
+			" this.parent.components.",
+			"classDefenition",
+			"this.bagVault.1.",
+			"this.bagVault[1]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"creaturesClassData",
+			"Battle",
+			"findScene",
+			"_tileSize",
+			"firstLeftPoint",
+			"_gridSize",
+			"Tiles",
+			"world_scale",
+			"w",
+			"W",
+			"classDefinition",
+			"gun.",
+			"gun"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1653,
+								1653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1998,
+								1998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FS-clone-pixijs.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
