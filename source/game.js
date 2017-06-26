@@ -2,14 +2,16 @@ function Game( resolution ){
 	//variables;
 	this.width = resolution.x;
 	this.height = resolution.y;
-	this.inited = false;
-
+	
 	this.renderer = undefined;
 	this.stage = undefined;
 	this.camera = undefined;
 	this.world = undefined;
 
 	this.paused = false;
+	this.inited = false;
+
+	this.sceneManager = undefined;
 
 	//PIXI
 	this.Container = undefined;
@@ -30,6 +32,7 @@ function Game( resolution ){
 	    	this.initStage();
 	    	this.createWorld( 2560, 2560 );
 	    	this.createCamera();
+	    	this.sceneManager = new SceneManager( this );
 	    	this.inited = true;
 	    }
 	}
@@ -123,16 +126,16 @@ function Game( resolution ){
 	this.onDragMove = function() {
 	    if (this.dragging) {
 	        var newPosition = this.data.getLocalPosition(this.parent);
-	        game.world.x = newPosition.x - this.dragPoint.x;
-	        game.world.y = newPosition.y - this.dragPoint.y;
-	        if( game.world.x >= 0 )
-	        	game.world.x = 0;
-	        if( game.world.y >= 0 )
-	        	game.world.y = 0;
-	        if( game.world.x <= -1280 )
-	        	game.world.x = -1280;
-	        if( game.world.y <= -1280 )
-	        	game.world.y = -1280;
+	        this.x = newPosition.x - this.dragPoint.x;
+	        this.y = newPosition.y - this.dragPoint.y;
+	        if( this.x >= 0 )
+	        	this.x = 0;
+	        if( this.y >= 0 )
+	        	this.y = 0;
+	        if( this.x <= -1280 )
+	        	this.x = -1280;
+	        if( this.y <= -1280 )
+	        	this.y = -1280;
 	    }
 	}
 }
