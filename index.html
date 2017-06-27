@@ -5,25 +5,8 @@
   <title>FS clone pixijs</title>
 </head>
   <script src="engine/pixi.min.js"></script>
-  <script src="source/game.js"></script>
   <script src="main.js"></script>
   <style>* { padding:0px; margin:0px; }</style>
-<body onload="init();">
-  <script type="text/javascript">
-  function init(){
-    console.log("body loaded");
-    //document.write('<script type="text/javascript" src="source/game.js" >');
-    var width = window.innerWidth - 1280;
-    var height = window.innerHeight - 768;
-    if( width <= 0 )
-      width = 0;
-    if( height <= 0 )
-      height = 0;
-    document.body.style.paddingLeft = width/2 + "px";
-    document.body.style.paddingTop = height/2 + "px";
-
-    gameInit();
-  }
-  </script>
+<body onload="prepareApplication();">
 </body>
 </html>

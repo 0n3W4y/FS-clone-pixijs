@@ -4,37 +4,42 @@ function Scene( parent, id ){
 	this.sceneGraphics = undefined;
 	this.onScreen = undefined;
 
-	this.objectIdNumber = undefined;
+	this.backgroundSrc = undefined;	
+	this.foregroundSrc = undefined;	
 
 	this.staticObjectsArray = undefined;
 	this.interactiveObjectsArray = undefined;
 
+	this.staticObjectsGraphic = undefined;
+	this.interactiveObjectsGraphic = undefined;
+	this.backGroundGraphics = undefined;
+	this.foregroundGraphics = undefined;
+
 
 	//methods
-	this.init = function(){
-		this.objectIdNumber = 0;
+	this.init = function( backgroundSrc, foregroundSrc ){
 		this.onScreen = false;
 		this.staticObjectsArray = new Array();
 		this.interactiveObjectsArray = new Array();
+		this.backgroundSrc = backgroundSrc;
+		this.foregroundSrc = foregroundSrc;
+		this.createLayerGraphics();
 	}
 
-	this.addObjectOnScene - function( objectName, params ){
-		var obj = this.createObject( objectname );
-		var id = this.createId();
-		obj.init( this, id, params );
+	this.addObject = function( object ){
+		var container = this.staticObjectsArray;
+		if( object.interactiveObject == 1)
+			container = this.interactiveObjectsArray;
 	}
 
-	this.createObject( objectName ){
-		var result;
-		if( objectName == "Room" )
-			result = new Room( this, objectName );
-		else
-			console.log( "Error in Scene/createObject. no object with name: " + objectName + "." );
-	}
+	this.createLayerGraphics = function(){
+		var backgroundTexture = new PIXI.Texture.fromImage( this.backgroundSrc ); 
+    	this.backGroundGraphics = new PIXI.Sprite( backgroundTexture );
+    	this.sceneGraphics.addChild( this.backGroundGraphics );
 
-	this.createId(){
-		var id = this.objectIdNumber;
-		this.objectIdNumber++;
-		return id;
+    	var foregroundTexture = new PIXI.Texture.fromImage( this.foregroundSrc );
+    	this.foregroundGraphics = new PIXI.Sprite( foregroundTexture );
+    	this.foregroundGraphics.y = 1000;
+    	this.sceneGraphics.addChild( this.foregroundGraphics );
 	}
 }

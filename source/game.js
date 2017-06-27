@@ -1,7 +1,7 @@
 function Game( resolution ){
 	//variables;
-	this.width = resolution.x;
-	this.height = resolution.y;
+	this.width = resolution.w;
+	this.height = resolution.h;
 	
 	this.renderer = undefined;
 	this.stage = undefined;
@@ -33,6 +33,7 @@ function Game( resolution ){
 	    	this.createWorld( 2560, 2560 );
 	    	this.createCamera();
 	    	this.sceneManager = new SceneManager( this );
+	    	this.sceneManager.init();
 	    	this.inited = true;
 	    }
 	}
@@ -82,25 +83,25 @@ function Game( resolution ){
 		this.camera = new PIXI.DisplayObjectContainer();
 		this.camera.width = this.width;
 		this.camera.height = this.height;
-		this.stage.addChild( this.camera );
-		
-		
+		this.stage.addChild( this.camera );		
 	}
 
 	this.createWorld = function( width, height ){
 		this.world = new PIXI.DisplayObjectContainer();
-		this.world.width = width;
-		this.world.height = height;
 		this.stage.addChild( this.world );
-		//centred camera;
-		this.world.x = this.width/2 - width/2;
-		this.world.y = this.height/2 - height/2;
-		this.world.interactive = true;
-		this.world.on('mousedown', this.onDragStart)
-        .on('mouseup', this.onDragEnd)
-        .on('mouseupoutside', this.onDragEnd)
-        .on('mousemove', this.onDragMove);
+		
+		//make world scrollable by mouse( up, down, left, right );
+
 	}
+
+	this.cetredCamera = function(){
+		var width = this.sceneManager.activeScene.sceneGraphics.width;
+		var height = this.sceneManager.activeScene.sceneGraphics.height;
+		this.sceneManager.activeScene.x = this.width/2 - width/2;
+		this.sceneManager.activeScene.y = this.height/2 - height/2;
+		console.log( width + '; ' + height );
+	}
+
 	this.onDragStart = function( event ) {
 	    if (!this.dragging) {
 	        this.data = event.data;
@@ -132,10 +133,10 @@ function Game( resolution ){
 	        	this.x = 0;
 	        if( this.y >= 0 )
 	        	this.y = 0;
-	        if( this.x <= -1280 )
-	        	this.x = -1280;
-	        if( this.y <= -1280 )
-	        	this.y = -1280;
+	        if( this.x <= -this.width/2 )
+	        	this.x = -this.width/2;
+	        if( this.y <= -1000 )
+	        	this.y = -1000;
 	    }
 	}
 }
