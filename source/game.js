@@ -137,8 +137,6 @@ function Game( resolution ){
 	        	this.x = -this.width/2;
 	        if( this.y <= -this.height/2 )
 	        	this.y = -this.height/2;
-
-	        console.log( this.x + '; ' + this.y );
 	    }
 	}
 
