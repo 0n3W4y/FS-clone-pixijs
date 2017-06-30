@@ -13,26 +13,28 @@ function SceneManager( parent ){
 	this.createScene = function( sceneName ){
 		var id = this.createId();
 		var scene = new Scene( this, id );
-		var sceneGraphics = new this.parent.Container();
+		var sceneGraphics = new PIXI.DisplayObjectContainer();
 		scene.sceneGraphics = sceneGraphics;
 		this.scenesArray.push( scene );
 		return scene;
 	}
 
 	this.addSceneToScreen = function( scene ){
-		this.parent.world.addChild( scene.sceneGraphics );
 		scene.onScreen = true;
 		if( this.activeScene != null || this.activeScene != undefined )
 			this.removeSceneFromScreen();
 
 		this.activeScene = scene;
 		this.parent.world.addChild( scene.sceneGraphics );
+
+		//make scene scrollable by mouse( up, down, left, right );
 		scene.sceneGraphics.interactive = true;
 		scene.sceneGraphics.on('mousedown', this.parent.onDragStart)
         .on('mouseup', this.parent.onDragEnd)
         .on('mouseupoutside', this.parent.onDragEnd)
         .on('mousemove', this.parent.onDragMove);
-        this.parent.cetredCamera();
+        this.parent.centredCamera();
+        
 	}
 
 	this.removeSceneFromScreen = function(){
@@ -46,4 +48,23 @@ function SceneManager( parent ){
 		this.sceneIdNumber++;
 		return id;
 	}
+
+	this.loadImages = function( scene, imagesArray ){
+		PIXI.loader.reset();
+		PIXI.loader.add( imagesArray ).load(setup);
+		var self = this;
+
+		function setup() {
+			// параметры сцены будут задвать 2 спрайта, передний план и задний план
+			scene.backGroundGraphics = new PIXI.Sprite(PIXI.loader.resources.backgroundTexture.texture);
+			scene.foregroundGraphics = new PIXI.Sprite(PIXI.loader.resources.foregroundTexture.texture);
+			scene.foregroundGraphics.y = 1000;
+
+			scene.sceneGraphics.addChild( scene.backGroundGraphics );
+			scene.sceneGraphics.addChild( scene.foregroundGraphics );
+			self.parent.centredCamera();
+  			console.log( "images loaded!" );
+		}
+	}
+
 }

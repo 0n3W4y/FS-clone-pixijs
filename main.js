@@ -1,7 +1,7 @@
 var game;
 var gameWidth = 1280;
 var gameHeight = 768;
-var scriptPathArray = [ "source/Game.js", "source/Room.js", "source/Scene.js", "source/SceneManager.js" ];
+var scriptPathArray = [ "source/Game.js", "source/Room.js", "source/Scene.js", "source/SceneManager.js", "source/ObjectManager.js" ];
 importScripts();
 
 function prepareApplication(){
@@ -41,11 +41,10 @@ function gameInit( gameWidth, gameHeight ){
         
     var texture1 = new PIXI.Texture.fromImage('images/cat.png');
 
-    var cat = new PIXI.Sprite( PIXI.utils.TextureCache["images/cat.png"] );
+    var cat = new PIXI.Sprite( texture1 );
     var cat2 = new PIXI.Sprite( texture1 );
     var cat3 = new PIXI.Sprite( texture1 );
     var cat4 = new PIXI.Sprite( texture1 );
-    console.log( cat.width + "; " + cat.height );
 
     cat3.x = 1280 - 64;
     cat3.y = 768 - 64;
@@ -58,9 +57,11 @@ function gameInit( gameWidth, gameHeight ){
     game.camera.addChild( cat4 );
 
     var scene = game.sceneManager.createScene( "some scene" );
-    scene.init( "images/background-sand-rocks.png", "images/foreground-sand.png" );
+    scene.init();
+    var array = [ { name: 'backgroundTexture', url: 'images/background-sand-rocks.png' }, {  name: 'foregroundTexture', url: 'images/foreground-sand.png' } ];
+    game.sceneManager.loadImages( scene, array );
     game.sceneManager.addSceneToScreen( scene );
-    //var room = scene.createObject( "Room" );
+    //var room = game.objectManager.createObject( "Room" );
 
 
 }

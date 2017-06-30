@@ -41,3 +41,4 @@ function ObjectManager( parent ){
 		this.objectIdNumber++;
 		return id;
 	}
+}

@@ -12,6 +12,7 @@ function Game( resolution ){
 	this.inited = false;
 
 	this.sceneManager = undefined;
+	this.objectManager = undefined;
 
 	//PIXI
 	this.Container = undefined;
@@ -30,9 +31,10 @@ function Game( resolution ){
 	    	this.Text = PIXI.Text;
 	    	this.initRenderer();
 	    	this.initStage();
-	    	this.createWorld( 2560, 2560 );
+	    	this.createWorld();
 	    	this.createCamera();
 	    	this.sceneManager = new SceneManager( this );
+	    	this.objectManager = new ObjectManager( this );
 	    	this.sceneManager.init();
 	    	this.inited = true;
 	    }
@@ -81,25 +83,23 @@ function Game( resolution ){
 
 	this.createCamera = function() {
 		this.camera = new PIXI.DisplayObjectContainer();
+		this.camera.on( 'mousedown', this.clickFunction );
 		this.camera.width = this.width;
 		this.camera.height = this.height;
 		this.stage.addChild( this.camera );		
 	}
 
-	this.createWorld = function( width, height ){
+	this.createWorld = function(){
 		this.world = new PIXI.DisplayObjectContainer();
 		this.stage.addChild( this.world );
-		
-		//make world scrollable by mouse( up, down, left, right );
-
 	}
 
-	this.cetredCamera = function(){
+	this.centredCamera = function(){
 		var width = this.sceneManager.activeScene.sceneGraphics.width;
 		var height = this.sceneManager.activeScene.sceneGraphics.height;
-		this.sceneManager.activeScene.x = this.width/2 - width/2;
-		this.sceneManager.activeScene.y = this.height/2 - height/2;
-		console.log( width + '; ' + height );
+		this.sceneManager.activeScene.sceneGraphics.x = this.width/2 - width/2;
+		this.sceneManager.activeScene.sceneGraphics.y = this.height/2 - height/2;
+		
 	}
 
 	this.onDragStart = function( event ) {
@@ -126,7 +126,7 @@ function Game( resolution ){
 
 	this.onDragMove = function() {
 	    if (this.dragging) {
-	        var newPosition = this.data.getLocalPosition(this.parent);
+	        var newPosition = this.data.getLocalPosition( this.parent );
 	        this.x = newPosition.x - this.dragPoint.x;
 	        this.y = newPosition.y - this.dragPoint.y;
 	        if( this.x >= 0 )
@@ -135,9 +135,15 @@ function Game( resolution ){
 	        	this.y = 0;
 	        if( this.x <= -this.width/2 )
 	        	this.x = -this.width/2;
-	        if( this.y <= -1000 )
-	        	this.y = -1000;
+	        if( this.y <= -this.height/2 )
+	        	this.y = -this.height/2;
+
+	        console.log( this.x + '; ' + this.y );
 	    }
+	}
+
+	this.clickFunction = function(){
+		console.log( "click!" );
 	}
 }
 
