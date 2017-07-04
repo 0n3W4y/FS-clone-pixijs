@@ -36,6 +36,7 @@ function Game( resolution ){
 	    	this.sceneManager = new SceneManager( this );
 	    	this.objectManager = new ObjectManager( this );
 	    	this.sceneManager.init();
+	    	this.objectManager.init();
 	    	this.inited = true;
 	    }
 	}
